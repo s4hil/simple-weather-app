@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Weather App</title>
+	
+	<!-- Bootstrap CSS-->
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	
+	<!-- Custom CSS-->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<!-- G-Fonts CSS -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="wrapper row">
+		<div class="centered-box col col-sm-11 col-md-8 col-lg-6" style="margin-left: 30px;">
+			<div class="search-box">
+				<form method="post" id="mainForm" class="form">
+					<input id="city" type="text" class="form-control mr-3" placeholder="Enter City Name">
+					<button class="btn btn-success" type="button" id="searchBtn"><i class="fa fa-search mr-2"></i> Search</button>
+				</form>
+			</div>
+			<div class="card-box mt-3 ml-2 row" style="display: none;">
+				
+				<div class="weather-card row">
+					<div class="icon-container">
+						<img class="icon" src="">
+					</div>
+					<div class="row2">
+						<div class="place ml-3">Sopore</div>
+						<div>
+							<div class="weatherCondition">Coudy</div>
+							<div class="weatherDes">Light Rain</div>
+						</div>
+						<div class="temp">27&deg;C</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+
+
+	<script src="assets/js/jquery.min.js"></script>	
+	<script src="assets/js/ajaxScript.js"></script>	
+</body>
+</html>
