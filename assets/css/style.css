@@ -14,6 +14,22 @@
 	background-color: #5aa897;
 }
 
+.logo-container {
+	height: 100px;
+	margin-top: -100px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: white;
+	border-radius: 30px;
+	box-shadow: 5px 5px 5px grey;
+	margin-bottom: 10px;
+}
+.logo-container img{
+	height: 80px;
+}
+
 .centered-box {
 }
 

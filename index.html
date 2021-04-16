@@ -7,6 +7,9 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+	<!-- Fav Icon -->
+	<link rel="icon" href="favicon.png">
+
 	<!-- Bootstrap CSS-->
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 	
@@ -18,12 +21,19 @@
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 <body>
 	<div class="wrapper row">
 		<div class="centered-box col col-sm-11 col-md-8 col-lg-6" style="margin-left: 30px;">
+
+			<div class="logo-container container">
+				<img src="assets/stuff/logo.png">
+				<h2 class="ml-2">Weather App</h2>
+			</div>
+
 			<div class="search-box">
-				<form method="post" id="mainForm" class="form">
+				<form method="post" id="mainForm" class="form" autocomplete="off">
 					<input id="city" type="text" class="form-control mr-3" placeholder="Enter City Name">
 					<button class="btn btn-success" type="button" id="searchBtn"><i class="fa fa-search mr-2"></i> Search</button>
 				</form>
