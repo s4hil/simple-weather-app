@@ -16,7 +16,7 @@ $('#searchBtn').click( (e) => {
 
 	var cityName = cityName.toLowerCase();
 	var token = "5f6aaa2f7afc7ec45bbbfe66d0d2457d";
-	var url = "http://api.openweathermap.org/data/2.5/weather?q="+cityName+"&appid="+token+"";
+	var url = "https://api.openweathermap.org/data/2.5/weather?q="+cityName+"&appid="+token+"";
 
 	var cardTitle = $('.card-title');
 
@@ -48,7 +48,7 @@ $('#searchBtn').click( (e) => {
 
 	// Fetching icon URL
 	function fetchIcon(code) {
-		var iconURL = "http://openweathermap.org/img/w/" + code + ".png";
+		var iconURL = "https://openweathermap.org/img/w/" + code + ".png";
 		return iconURL;
 	}
 });
